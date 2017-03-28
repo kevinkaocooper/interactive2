@@ -1,0 +1,250 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #DFDDD9;
+	position: relative;
+}
+
+#bottle-top{
+	display: block;
+    position: absolute;
+    border-radius: 3px;
+    background: #0A5618; 
+    top: 34%;
+    left: 23%;
+    width: 25px;
+    height: 12px; 
+
+}
+
+#bottle-middle{
+	display: block;
+    position: absolute;
+    border-bottom: 8px solid #0A5618;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: 65%;
+    left: 30%;
+    height: 0;
+    width: 100px;
+	
+}
+#bottle-middle2{
+	display: block;
+    position: absolute;
+    border-radius: 3px;
+    background: #0A5618;
+    top: 55%;
+    left: 192px;
+    width: 60px;
+    height: 35px;
+	
+}
+#bottle-bottom{
+	display: block;
+    position: absolute;
+    border-radius: 3px;
+    background: #0A5618; 
+    left: 192px;
+    top: 75%;
+    width: 60px;
+    height: 25px; 
+	
+}
+#bottle-white1{
+	display: block;
+    position: absolute;
+	
+}
+
+#bottle-white2{
+	display: block;
+    position: absolute;
+
+	
+}
+
+#glass-top {
+	display: block;
+    position: absolute;
+    border-bottom: 43px solid #ADDFDF;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 357px;
+    left: 210px;
+    height: 0;
+    width: 50px;
+    opacity: 0.9;
+
+}
+
+#glass-top2 {
+	display: block;
+    position: absolute;
+    border-bottom: 43px solid #ADDFDF;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 357px;
+    left: 300px;
+    height: 0;
+    width: 50px;
+    opacity: 0.9;
+}
+
+#glass-bar {
+	display: block;
+    position: absolute;
+    top: 430px;
+    left: 238px;
+    width: 20px;
+    height: 32px;
+    background-color: #ADDFDF;
+    opacity: 0.9;
+}
+
+#glass-bar2 {
+	display: block;
+    position: absolute;
+    top: 430px;
+    left: 329px;
+    width: 20px;
+    height: 32px;
+    background-color: #ADDFDF;
+    opacity: 0.9;
+}
+
+#glass-base {
+   	display: block;
+    position: absolute;
+    border-bottom: 8px solid #ADDFDF;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: 462px;
+    left: 218px;
+    height: 0;
+    width: 57px;
+    opacity: 0.9;
+}
+
+#glass-base2 {
+   	display: block;
+    position: absolute;
+    display: block;
+    position: absolute;
+    border-bottom: 8px solid #ADDFDF;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: 462px;
+    left: 309px;
+    height: 0;
+    width: 57px;
+    opacity: 0.9;
+}
+
+#glass-bottom {
+   	display:block;
+	position: absolute;
+	top: 400px;
+	left: 210px;
+ 	width: 80px;
+    height: 35px;
+    background-color: #FECD5B  ;
+    border-radius: 60%  50%  50%  50%  / 0% 0% 85%  85%;
+    opacity: 0.9;
+}
+
+#glass-bottom2 {
+   	display:block;
+	position: absolute;
+	top: 400px;
+	left: 300px;
+ 	width: 80px;
+    height: 35px;
+    background-color: #FECD5B  ;
+    border-radius: 60%  50%  50%  50%  / 0% 0% 85%  85%;
+    opacity: 0.9;
+}
+
+#heart-circle1 {
+	display: block;
+    position: absolute;
+    top: 13%;
+    left: 36%;
+    width: 150px;
+    height: 150px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 80px;
+}
+
+#heart-circle2 {
+	display: block;
+    position: absolute;
+    top: 13%;
+    left: 48%;
+    width: 150px;
+    height: 150px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 80px;
+
+}
+
+#heart-sqr {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 126px;
+    left: 42%;
+    background: red;
+    transform: rotate(45deg);
+}
+
+#cloth {
+	display: block;
+    position: absolute;
+    width: 600px;
+    height: 45px;
+    top: 77%;
+    left: 12%;
+    -webkit-transform: skew(-70deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    background: #FFEF2B;
+}
+
+#table1 {
+	display: block;
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    bottom: 14%;
+    background: #FAC071;
+}
+
+#table2 {
+	display: block;
+    position: absolute;
+    width: 900px;
+    height: 25px;
+    bottom: 10%;
+    background: #AF7C17;
+}
+
+
+
+
+
+
+
+
+
+

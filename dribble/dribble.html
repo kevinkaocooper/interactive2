@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>:hover (states)</title>
+	<link rel="stylesheet" type="text/css" href="css/dribble.css">
+</head>
+<style type="text/css">
+	
+.ball{
+  position: absolute;
+  left: 480px;
+  top: 315px;
+}
+
+.ball:hover{
+  animation: bounce 0.5s infinite;
+   
+}
+
+.ppl{
+  position: absolute;
+  left: 480px;
+  top: 100px;
+ 
+}
+
+
+@keyframes bounce {
+
+  100% {
+    -webkit-transform: translate3d(0,250px,0);
+    transform: translate3d(0,250px,0);
+  }
+}
+
+</style>
+<body>
+
+<div class="ball">
+	<img src="ball.png" alt="basketball" style="width:132px;height:125px;">
+</div>
+
+<img class="ppl" src="ppl.png" alt="ppl">
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+.ball{
+  position: absolute;
+  left: 480px;
+  top: 315px;
+
+  
+ 
+}
+
+.ball:hover{
+  animation: bounce 0.5s infinite;
+   
+}
+
+
+.ppl{
+  position: absolute;
+  left: 480px;
+  top: 100px;
+ 
+}
+
+
+@keyframes bounce {
+
+  100% {
+    -webkit-transform: translate3d(0,250px,0);
+    transform: translate3d(0,250px,0);
+  }
+}

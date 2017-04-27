@@ -180,10 +180,11 @@ body{
 
  .pj2-p{
   position: absolute;
-  width: 400px;
+  width: 800px;
   height: 600px;
   top: 55%;
   left: 20%;
-  font-size: 12pt;
+  font-size: 16pt;
   opacity: 0;
+  line-height: 2em;
  }

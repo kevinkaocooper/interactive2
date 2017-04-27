@@ -1,0 +1,101 @@
+
+
+
+
+
+
+@font-face { 
+  font-family: AG; 
+  src: url('akzidenz-groteskschulbuch2medium.ttf'); 
+} 
+
+body{
+  margin: 0;
+  font-family: AG; 
+  /*width: 100%;*/
+  /*overflow: hidden;*/
+}
+
+.title{
+  position: absolute;
+  top: 60%;
+}
+
+h1, h3{
+
+  position: relative;
+  left: 20%;
+}
+
+h3{
+
+  width: 600px;
+}
+
+.pj1-wp{
+  position: absolute;
+  left: 60%;
+  width: 1200px;
+  height: 100vh;
+
+}
+
+.pic1{
+  position: absolute;
+  width: 1200px;
+  height: 811px;
+  background-image: url("../pj1-1.png");
+  background-size: cover;
+
+}
+
+.pj1-info{
+  position: absolute;
+  left: 191%;
+  width: auto;
+  height: auto;
+  top: 25%; 
+}
+
+.pj1-1{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+
+.pj1-2 {
+    position: absolute;
+    width: 404px;
+    left: 1242px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pj1-p {
+    position: absolute;
+    padding: 30px;
+    width: 300px;
+    height: 340px;
+    left: 674px;
+    top: -13px;
+    background-color: lightgray;
+    font-size: 10pt;
+}
+
+
+
+.transform1{
+  transform: matrix3d(3.013929, 0.191826, 0, 0.001826, -0.019429, 3.175026, 0, 0.000012, 0, 0, 1, 0, 46, 100, 0, 1);
+}
+
+.transform2{
+  transform: matrix3d(-3.013929, 0.191826, 0, 0.001826, -0.019429, 3.175026, 0, 0.000012, 0, 0, 1, 0, 46, 100, 0, 1);
+}
+
+
+
+
+
+
+

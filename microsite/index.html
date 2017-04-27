@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<head>
+  <title>2x4 Design Series 3</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./assets/css/microsite.css" type="text/css"/>
+  <link rel="shortcut icon" href="">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<script type="">
+
+$(document).ready(function() {
+
+	$(".opening").click(function(){
+    	$(".opening").fadeOut(1000);
+	});
+	
+	$(".nav1").mouseover(function(){
+	    $(".pj1").addClass('show');
+	});
+	$(".nav1").mouseout(function(){
+	    $(".pj1").removeClass('show');
+	});
+	
+	$(".nav2").mouseover(function(){
+	    $(".pj2").addClass('show');
+	    $(".box").addClass('pj1-pic');
+	    $(".pj2-p").addClass('show');
+	});
+	$(".nav2").mouseout(function(){
+	    $(".pj2").removeClass('show');
+	    $(".box").removeClass('pj1-pic');
+	    $(".pj2-p").removeClass('show');
+	});
+	
+	$(".nav3").mouseover(function(){
+	    $(".pj3").addClass('show');
+	});
+	$(".nav3").mouseout(function(){
+	    $(".pj3").removeClass('show');
+	});
+	
+	$(".nav4").mouseover(function(){
+	    $(".pj4").addClass('show');
+	});
+	$(".nav4").mouseout(function(){
+	    $(".pj4").removeClass('show');
+	});
+	
+
+});
+</script>
+
+
+<body>
+	
+	<div id="f-background" class="opening">
+			<div class="title">2x4 / design series 3</div>	
+	</div>
+
+
+
+	
+		<div class="box"></div>	
+	
+	<div class="pjtitle pj1">knoll textiles</div>
+	<div class="pjtitle pj2">muhammad ali center</div>
+	<div class="pjtitle pj3">iit mccormick tribune campus center</div>
+	<div class="pjtitle pj4">prada wallpapers</div>
+
+	<div class="navhome">2x4 / design series 3</div>
+	<div class="nav nav1">x</div>
+	<div class="nav nav2">x</div>
+	<div class="nav nav3">x</div>
+	<div class="nav nav4">x</div>
+
+	<div class="p pj2-p">The Muhammad Ali Center is a museum and cultural center located in Louisville, KY. We were asked to create a visual faÃ§ade for the building using one by two ceramic tiles in nine custom colors. The design of the faÃ§ade uses photographs by Howard L. Bingham of Ali, with the portrait broken into rough pixelated images. Up close, the portraits become a pattern; at a distance, the tiles resolve into dramatic large-scale portraits of Ali.</div>
+
+	<img src="./assets/css/logo.png" style="width: 20% height:20% >
+
+
+
+
+
+</body>
+</html>

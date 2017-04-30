@@ -2,26 +2,24 @@
 
 body {
 	background-color: black;
-
-    
 }
-  
+
 .nav1{
-	position: absolute;
+    position: absolute;
     width: 17px;
     height: 17px;
-    background-color: yellow;
+    background-color: white;
     left: 1343px;
     top: 69px;
     animation: spin 3s infinite;
 }
-.nav2{
+/*.nav2{
 	position: absolute;
     width: 17px;
     height: 17px;
     background-color: red;
     left: 1343px;
-    top: 96px;
+    top: 69px;
     animation: spin 3s 1s infinite;
 }
 .nav3{
@@ -30,14 +28,25 @@ body {
     height: 17px;
     background-color: blue;
     left: 1343px;
-    top: 123px;
+    top: 150px;
     animation: spin 3s 2s infinite;
 }
+
+.nav4{
+	position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    left: 1287px;
+    top: 69px;
+    animation: spin 3s 2s infinite;
+}*/
 
 @keyframes spin {
     from { transform: rotateY(0deg); }
     to { transform: rotateY(360deg); }
 }
+  
 /*
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -50,6 +59,16 @@ body {
  	height: 15px;
  	background-color: white;
  	position: absolute;
+ 	animation: line 10s linear infinite alternate;
+ 	
+}
+
+@keyframes line{
+	0%	{background-color: black;}
+	25%	{background-color: white;}
+	50% {background-color: black;}
+	75%	{background-color: white;}
+	100% {background-color: white;}
 }
 
 /*
@@ -1395,7 +1414,7 @@ body {
  		left: 40px;
 }
  .i3{
- 		left: 68px;	display: none;s
+ 		left: 68px;		display: none;
 }
  .i4{
  		left: 96px;
@@ -6057,7 +6076,7 @@ body {
  	left: 179px;
 }
  .cH8 {
- 	left: 207px;
+ 	left: 207px;	
 }
  .cH9 {
  	left: 235px;
@@ -6387,7 +6406,7 @@ body {
  	left: 179px;	
 }
  .cJ8 {
- 	left: 207px;
+ 	left: 207px;	
 }
  .cJ9 {
  	left: 235px;
@@ -6444,7 +6463,7 @@ body {
  	left: 711px;
 }
  .cJ27 {
- 	left: 739px;	display: none;
+ 	left: 739px;
 }
  .cJ28 {
  	left: 767px;
@@ -9500,8 +9519,16 @@ body {
 .line-h{
 	width: 15.5px;
   	height: 4px;
- 	background-color: white;
  	position: absolute;
+ 	animation: lineh 10s linear infinite alternate;
+}
+
+@keyframes lineh{
+	0%	{background-color: white;}
+	25%	{background-color: black;}
+	50% {background-color: white;}
+	75%	{background-color: white;}
+	100% {background-color: white;}
 }
 
 /*
@@ -9666,7 +9693,6 @@ body {
 .A050{
  	left: 1392px;
 } 
-
 /*
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -14229,19 +14255,12 @@ body {
 } 
 
 /*
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-*/
-
 .box1{
 	position: absolute;
 	width: 72px;
 	height: 26px;
 	font-family: 'Patua One', cursive;
-	background-color: white;
+	background-color: black;
 	color: black;
 	text-align: center;
 	top: 745px;
@@ -14253,7 +14272,7 @@ body {
 	width: 72px;
 	height: 26px;
 	font-family: 'Patua One', cursive;
-	background-color: white;
+	background-color: black;
 	color: black;
 	text-align: center;
 	top: 745px;
@@ -14265,7 +14284,7 @@ body {
 	width: 72px;
 	height: 26px;
 	font-family: 'Patua One', cursive;
-	background-color: white;
+	background-color: black;
 	color: black;
 	text-align: center;
 	top: 745px;
@@ -14277,21 +14296,21 @@ body {
 	width: 72px;
 	height: 26px;
 	font-family: 'Patua One', cursive;
-	background-color: white;
+	background-color: black;
 	color: black;
 	text-align: center;
 	top: 745px;
 	left: 1288px;
 }
 
+
 a:link {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a:visited{
-	color: black;
+	color: white;
 }
-
-
+*/
 
